@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "node app.js",
+    "test": "jest",
+    "archive-logs": "node scripts/archive-logs.js",
+    "check-disk": "node scripts/check-disk-usage.js"
   },
   "keywords": [],
   "author": "",
